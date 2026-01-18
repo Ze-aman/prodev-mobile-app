@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------
+   Global Resets & Defaults
+------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* -----------------------------
+   Custom Global Utilities
+------------------------------ */
+
+/* Primary brand color */
+.text-primary {
+  color: #34967c;
+}
+
+.bg-primary {
+  background-color: #34967c;
+}
+
+/* Secondary accent */
+.text-accent {
+  color: #ffa800;
+}
+
+.bg-accent {
+  background-color: #ffa800;
+}
+
+/* Card shadow (RN-safe) */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+/* Muted text */
+.text-muted {
+  color: #7e7b7b;
+}
